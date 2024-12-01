@@ -18,6 +18,7 @@ COPY . ./
 
 # Expose the port your application listens on
 EXPOSE 5001
+ENV PORT 5001
 
 # Set the default command to run the application
 CMD ["node", "index.js"]
