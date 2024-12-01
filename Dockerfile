@@ -17,8 +17,8 @@ COPY . ./
 # RUN npm run build
 
 # Expose the port your application listens on
-EXPOSE 5001
-ENV PORT 5001
+EXPOSE 5000
+ENV PORT 5000
 
 # Set the default command to run the application
 CMD ["node", "index.js"]
